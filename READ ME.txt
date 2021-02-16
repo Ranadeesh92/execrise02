@@ -1,0 +1,16 @@
+This is a step by step procedure of how to import code and execute
+
+Step 1: Clone the Project from Git Reposotorty and enter the following commands
+"Select GitBash Command"
+Git clone 'Path of project'
+
+Sterp 2: Install the Java and eclipse into your local computer or work station.
+
+Step 3: Input your downloaded project into your eclipse and open the Java program
+
+Step 4: Run the project by selecting 'Run as' option from the dropdown menu of 'Run' menu
+	and select 'run as java application'
+
+Step 5: The program is executing and Now when asked for it, Please enter the valid inputs.
+
+Step 6: If you want please follow the test cases attached in the email and in the repository 
