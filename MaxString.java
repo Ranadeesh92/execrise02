@@ -1,11 +1,12 @@
 package inrhythm;
 
-import java.util.Scanner;
+import java.util.Scanner; //Importing scanner to take in the input values from the user
+
 public class MaxString 
 {
 /**
  * The method longestword is used to find out the longest word in the given sentence
- * @author ranadeesh
+ * @author Ranadeesh Kusuma
  * @date Feb 16th 2021
  * @param sinpuut
  * @return longestword
@@ -17,9 +18,9 @@ public class MaxString
 		String [] arrayA= sInput.split(" ");
 		int i;
 		//iterate the loop by getting each element of the array
-		for(i=1;i<arrayA.length;i++)
+		for(i=1; i<arrayA.length; i++)
 		{
-			if (arrayA[i-1].length() > arrayA[i].length())
+			if (arrayA[i-1].length() > arrayA[i].length()) //using the if loop to compare the array
 			{
 				arrayA[i]= arrayA[i-1];
 			}
@@ -28,13 +29,13 @@ public class MaxString
 	}
 	/**
 	 * The Method LengthString is used to find out the length of the string without using len
-	 * @author ranadeesh
+	 * @author Ranadeesh Kusuma
 	 * @Date Feb 16,2021
 	 * @param sInput
 	 * @return lenthofstring
 	 */
 	
-	public int lengthString(String sInput)
+	public int lengthString(String sInput) 
 	{
 		int j=0;
 		char[] ch=sInput.toCharArray();
@@ -63,8 +64,8 @@ public class MaxString
 	}
 		else
 		{
-			//This should be an error box message 
-			System.out.println("Please enter a Valid input or given string cannot be empty value:");
+			//This is an an error box message 
+			System.out.println("Please enter a Valid input or given string cannot be empty:");
 		}
 
 	}
